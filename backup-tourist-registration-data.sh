@@ -5,4 +5,4 @@ location2=~/systemdatabackup/website/`date +%Y%m%d_%H%M%S`.sql
 
 mysqldump --user=root --password=admin@B4j0 db_online-booking > $location -v
 
-mysqldump --user=root --password=@B4j0_us3r! db_web > $location2 -v
+mysqldump --user=root --password=admin@B4j0 db_web > $location2 -v
